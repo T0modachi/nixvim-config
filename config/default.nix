@@ -12,7 +12,6 @@
     ./plug/colorscheme/colorscheme.nix
 
     ./plug/completion/cmp.nix
-    ./plug/completion/copilot-cmp.nix
     ./plug/completion/lspkind.nix
     ./plug/completion/schemastore.nix
 
@@ -46,14 +45,12 @@
     ./plug/ui/telescope.nix
 
     ./plug/utils/comment.nix
-    ./plug/utils/copilot.nix
     ./plug/utils/flash.nix
     ./plug/utils/hardtime.nix
     #./plug/utils/harpoon.nix
     ./plug/utils/grapple.nix
     ./plug/utils/illuminate.nix
     ./plug/utils/nvim-autopairs.nix
-    ./plug/utils/obsidian.nix
     ./plug/utils/oil.nix
     ./plug/utils/undotree.nix
     ./plug/utils/ufo.nix
