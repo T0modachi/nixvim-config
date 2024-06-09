@@ -16,6 +16,7 @@
         yamlls = {
           enable = true;
         };
+        ruby-lsp = {enable = true;};
       };
       keymaps = {
         silent = true;
