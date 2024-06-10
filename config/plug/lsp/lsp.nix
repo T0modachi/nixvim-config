@@ -17,6 +17,7 @@
           enable = true;
         };
         ruby-lsp = {enable = true;};
+        phpactor = {enable = true;};
       };
       keymaps = {
         silent = true;
