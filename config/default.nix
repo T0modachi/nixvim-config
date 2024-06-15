@@ -46,6 +46,7 @@
     ./plug/ui/telescope.nix
 
     ./plug/utils/comment.nix
+    ./plug/utils/ollama.nix
     ./plug/utils/flash.nix
     ./plug/utils/harpoon.nix
     ./plug/utils/grapple.nix
