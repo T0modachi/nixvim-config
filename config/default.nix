@@ -47,7 +47,6 @@
 
     ./plug/utils/comment.nix
     ./plug/utils/flash.nix
-    ./plug/utils/hardtime.nix
     #./plug/utils/harpoon.nix
     ./plug/utils/grapple.nix
     ./plug/utils/illuminate.nix
