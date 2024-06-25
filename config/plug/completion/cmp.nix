@@ -15,6 +15,7 @@
         formatting = {fields = ["kind" "abbr" "menu"];};
         sources = [
           {name = "nvim_lsp";}
+          {name = "codeium";}
           {name = "emoji";}
           {
             name = "buffer"; # text within current buffer
