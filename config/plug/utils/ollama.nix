@@ -2,7 +2,7 @@
   plugins = {
     ollama = {
       enable = true;
-      model = "deepseek-coder-v2";
+      model = "eramax/nxcode-cq-7b-orpo:q6";
     };
   };
 }
