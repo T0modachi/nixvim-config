@@ -33,6 +33,7 @@
         };
         stylua.enable = true;
         yamlfmt.enable = true;
+        phpcsfixer.enable = true;
       };
     };
   };
