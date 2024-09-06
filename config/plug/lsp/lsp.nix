@@ -9,6 +9,7 @@
         lua-ls = {enable = true;};
         nil-ls = {enable = true;};
         marksman = {enable = true;};
+        pyright = {enable = true;};
         ruff = {enable = true;};
         gopls = {enable = true;};
         terraformls = {enable = true;};
