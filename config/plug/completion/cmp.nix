@@ -14,8 +14,8 @@
         snippet = {expand = "luasnip";};
         formatting = {fields = ["kind" "abbr" "menu"];};
         sources = [
-          {name = "nvim_lsp";}
           {name = "codeium";}
+          {name = "nvim_lsp";}
           {name = "emoji";}
           {
             name = "buffer"; # text within current buffer
