@@ -29,6 +29,7 @@
     ./plug/lsp/none-ls.nix
     ./plug/lsp/trouble.nix
     ./plug/lsp/dap.nix
+    ./plug/lsp/neotest.nix
     ./plug/snippets/luasnip.nix
 
     ./plug/statusline/lualine.nix
