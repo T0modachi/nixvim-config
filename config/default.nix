@@ -29,15 +29,15 @@
     ./plug/lsp/none-ls.nix
     ./plug/lsp/trouble.nix
     ./plug/lsp/dap.nix
-    ./plug/lsp/neotest.nix
     ./plug/snippets/luasnip.nix
 
     ./plug/statusline/lualine.nix
     #./plug/statusline/staline.nix
 
-    #./plug/treesitter/treesitter-context.nix
+    ./plug/treesitter/treesitter-context.nix
     ./plug/treesitter/treesitter-textobjects.nix
     ./plug/treesitter/treesitter.nix
+    ./plug/lsp/neotest.nix
 
     #./plug/ui/alpha.nix
     ./plug/ui/btw.nix
