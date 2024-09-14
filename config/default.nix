@@ -50,7 +50,6 @@
     ./plug/utils/comment.nix
     ./plug/utils/ollama.nix
     ./plug/utils/flash.nix
-    ./plug/utils/harpoon.nix
     ./plug/utils/grapple.nix
     ./plug/utils/illuminate.nix
     ./plug/utils/nvim-autopairs.nix

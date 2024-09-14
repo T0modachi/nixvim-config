@@ -6,7 +6,6 @@
       "Outline"
       "TelescopePrompt"
       "alpha"
-      "harpoon"
       "reason"
     ];
   };
