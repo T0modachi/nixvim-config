@@ -56,6 +56,11 @@
       key = "<leader>c";
       action = "+code";
     }
+    {
+      mode = ["n" "v"];
+      key = "<leader>r";
+      action = "+refactor";
+    }
 
     {
       mode = ["n" "v"];
