@@ -26,6 +26,7 @@
 
       output_panel = {
         enabled = true;
+        open = "botright split";
       };
     };
   };
