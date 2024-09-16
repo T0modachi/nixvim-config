@@ -22,6 +22,7 @@
             }
           '';
         };
+        prettierd.enable = true;
         prettier = {
           enable = true;
           disableTsServerFormatter = true;
