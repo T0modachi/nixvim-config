@@ -14,14 +14,14 @@
       };
       formatting = {
         alejandra.enable = true;
-        black = {
-          enable = true;
-          withArgs = ''
-            {
-              extra_args = { "--fast" },
-            }
-          '';
-        };
+        # black = {
+        #   enable = true;
+        #   withArgs = ''
+        #     {
+        #       extra_args = { "--fast" },
+        #     }
+        #   '';
+        # };
         prettierd.enable = true;
         prettier = {
           enable = true;
