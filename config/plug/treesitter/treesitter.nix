@@ -15,7 +15,9 @@ in {
 
   plugins.treesitter = {
     enable = true;
-    indent = true;
+    settings = {
+      indent.enable = true;
+    };
     folding = true;
     languageRegister.nu = "nu";
     languageRegister.liq = "liquidsoap";

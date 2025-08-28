@@ -2,7 +2,9 @@
   plugins.none-ls = {
     enable = true;
     enableLspFormat = true;
-    updateInInsert = false;
+    settings = {
+      updateInInsert = false;
+    };
     sources = {
       code_actions = {
         gitsigns.enable = true;
@@ -22,11 +24,14 @@
         #     }
         #   '';
         # };
-        prettierd.enable = true;
+        prettierd = {
+          enable = true;
+          disableTsServerFormatter = true; # TODO: test deleting this option and using the formarter of the lsp enabled by default
+        };
         prettier = {
           enable = true;
           disableTsServerFormatter = true;
-          withArgs = ''
+          settings = ''
             {
               extra_args = { "--no-semi", "--single-quote" },
             }
@@ -34,7 +39,7 @@
         };
         stylua.enable = true;
         yamlfmt.enable = true;
-        phpcsfixer.enable = true;
+        #phpcsfixer.enable = true; TODO: find a php formatter with support
       };
     };
   };

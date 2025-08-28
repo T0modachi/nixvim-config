@@ -1,7 +1,7 @@
 {
   plugins = {
-    codeium-nvim = {
+    windsurf-nvim = {
       enable = true;
     };
-   };
+  };
 }

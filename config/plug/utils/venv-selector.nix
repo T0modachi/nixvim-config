@@ -5,9 +5,12 @@
       src = pkgs.fetchFromGitHub {
         owner = "linux-cultist";
         repo = "venv-selector.nvim";
-        rev = "c9d638f";
+        rev = "fbafbdd";
         hash = "sha256-3lJT9fr/CZsBIa+fJIM27fAbQa+F2U18tM6SDR5j2YI=";
       };
+      nvimSkipModules = [
+        "venv-selector.cached_venv"
+      ];
     })
   ];
 

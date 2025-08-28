@@ -1,27 +1,12 @@
 {
-  plugins.dap = {
-    enable = true;
-    signs = {
-      dapBreakpoint = {
-        text = "●";
-        texthl = "DapBreakpoint";
-      };
-      dapBreakpointCondition = {
-        text = "●";
-        texthl = "DapBreakpointCondition";
-      };
-      dapLogPoint = {
-        text = "◆";
-        texthl = "DapLogPoint";
-      };
+  plugins = {
+    web-devicons.enable = true;
+    dap-python = {
+      enable = true;
     };
-
-    extensions = {
-      dap-python = {
-        enable = true;
-      };
-      dap-ui = {
-        enable = true;
+    dap-ui = {
+      enable = true;
+      settings = {
         floating.mappings = {
           close = ["<ESC>" "q"];
         };
@@ -45,8 +30,26 @@
           };
         };
       };
-      dap-virtual-text = {
-        enable = true;
+    };
+    dap-virtual-text = {
+      enable = true;
+    };
+  };
+
+  plugins.dap = {
+    enable = true;
+    signs = {
+      dapBreakpoint = {
+        text = "●";
+        texthl = "DapBreakpoint";
+      };
+      dapBreakpointCondition = {
+        text = "●";
+        texthl = "DapBreakpointCondition";
+      };
+      dapLogPoint = {
+        text = "◆";
+        texthl = "DapLogPoint";
       };
     };
   };
