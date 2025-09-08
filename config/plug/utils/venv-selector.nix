@@ -6,7 +6,7 @@
         owner = "linux-cultist";
         repo = "venv-selector.nvim";
         rev = "fbafbdd";
-        hash = "sha256-3lJT9fr/CZsBIa+fJIM27fAbQa+F2U18tM6SDR5j2YI=";
+        hash = "sha256-3Fd0D0uy3YDPj7rUTnUfltgpX8LktRB0HZyu20qLEBA=";
       };
       nvimSkipModules = [
         "venv-selector.cached_venv"
