@@ -2,7 +2,7 @@
   plugins = {
     ollama = {
       enable = true;
-      model = "deepseek-coder-v2";
+      settings.model = "deepseek-coder-v2";
     };
   };
 }

@@ -18,7 +18,7 @@ in {
     settings = {
       indent.enable = true;
     };
-    folding = true;
+    folding.enable = true;
     languageRegister.nu = "nu";
     languageRegister.liq = "liquidsoap";
     nixvimInjections = true;
