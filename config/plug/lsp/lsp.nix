@@ -1,25 +1,52 @@
 {
   plugins = {
-    lsp-format = {enable = true;};
+    lsp-format = {
+      enable = true;
+    };
     lsp = {
       enable = true;
       servers = {
-        eslint = {enable = true;};
-        html = {enable = true;};
-        lua_ls = {enable = true;};
-        nil_ls = {enable = true;};
-        marksman = {enable = true;};
-        pyright = {enable = true;};
+        eslint = {
+          enable = true;
+        };
+        html = {
+          enable = true;
+        };
+        lua_ls = {
+          enable = true;
+        };
+        nil_ls = {
+          enable = true;
+        };
+        marksman = {
+          enable = true;
+        };
+        pyright = {
+          enable = true;
+        };
         #ruff = {enable = true;};
         #ruff-lsp = {enable = true;};
-        gopls = {enable = true;};
-        terraformls = {enable = true;};
-        ts_ls = {enable = true;};
+        gopls = {
+          enable = true;
+        };
+        terraformls = {
+          enable = true;
+        };
+        ts_ls = {
+          enable = true;
+        };
         yamlls = {
           enable = true;
         };
-        ruby_lsp = {enable = true;};
-        phpactor = {enable = true;};
+        jsonls = {
+          enable = true;
+        };
+        ruby_lsp = {
+          enable = true;
+        };
+        phpactor = {
+          enable = true;
+        };
       };
       keymaps = {
         silent = true;
