@@ -31,109 +31,99 @@ in {
       sections = {
         lualine_a = [
           {
-            mode = {
-              fmt = "string.lower";
-              color = {
-                fg =
-                  if config.colorschemes.base16.enable
-                  then colors.base04
-                  else "none";
-                bg =
-                  if config.colorschemes.base16.enable
-                  then colors.base00
-                  else "none";
-              };
+            __unkeyed-1 = "mode";
+            fmt.__raw = "string.lower";
+            color = {
+              fg =
+                if config.colorschemes.base16.enable
+                then colors.base04
+                else "none";
+              bg =
+                if config.colorschemes.base16.enable
+                then colors.base00
+                else "none";
             };
           }
         ];
         lualine_b = [
           {
-            branch = {
-              icon = "";
-              color = {
-                fg =
-                  if config.colorschemes.base16.enable
-                  then colors.base04
-                  else "none";
-                bg =
-                  if config.colorschemes.base16.enable
-                  then colors.base00
-                  else "none";
-              };
+            __unkeyed-1 = "branch";
+            icon = "";
+            color = {
+              fg =
+                if config.colorschemes.base16.enable
+                then colors.base04
+                else "none";
+              bg =
+                if config.colorschemes.base16.enable
+                then colors.base00
+                else "none";
             };
           }
           "diff"
         ];
         lualine_c = [
           {
-            diagnostic = {
-              extraConfig = {
-                symbols = {
-                  error = " ";
-                  warn = " ";
-                  info = " ";
-                  hint = "󰝶 ";
-                };
-              };
-              color = {
-                fg =
-                  if config.colorschemes.base16.enable
-                  then colors.base08
-                  else "none";
-                bg =
-                  if config.colorschemes.base16.enable
-                  then colors.base00
-                  else "none";
-              };
+            __unkeyed-1 = "diagnostics";
+            symbols = {
+              error = " ";
+              warn = " ";
+              info = " ";
+              hint = "󰝶 ";
+            };
+            color = {
+              fg =
+                if config.colorschemes.base16.enable
+                then colors.base08
+                else "none";
+              bg =
+                if config.colorschemes.base16.enable
+                then colors.base00
+                else "none";
             };
           }
         ];
         lualine_x = [
           {
-            filetype = {
-              extraConfig = {
-                icon_only = true;
-              };
-            };
+            __unkeyed-1 = "filetype";
+            icon_only = true;
           }
         ];
         lualine_y = [
           {
-            filename = {
-              extraConfig = {
-                symbols = {
-                  modified = "";
-                  readonly = "";
-                  unnamed = "";
-                };
-              };
-              color = {
-                fg =
-                  if config.colorschemes.base16.enable
-                  then colors.base04
-                  else "none";
-                bg =
-                  if config.colorschemes.base16.enable
-                  then colors.base00
-                  else "none";
-              };
-              separator.left = "";
+            __unkeyed-1 = "filename";
+            symbols = {
+              modified = "";
+              readonly = "";
+              unnamed = "";
+            };
+            color = {
+              fg =
+                if config.colorschemes.base16.enable
+                then colors.base04
+                else "none";
+              bg =
+                if config.colorschemes.base16.enable
+                then colors.base00
+                else "none";
+            };
+            separator = {
+              left = "";
             };
           }
         ];
         lualine_z = [
           {
-            location = {
-              color = {
-                fg =
-                  if config.colorschemes.base16.enable
-                  then colors.base0B
-                  else "none";
-                bg =
-                  if config.colorschemes.base16.enable
-                  then colors.base00
-                  else "none";
-              };
+            __unkeyed-1 = "location";
+            color = {
+              fg =
+                if config.colorschemes.base16.enable
+                then colors.base0B
+                else "none";
+              bg =
+                if config.colorschemes.base16.enable
+                then colors.base00
+                else "none";
             };
           }
         ];
