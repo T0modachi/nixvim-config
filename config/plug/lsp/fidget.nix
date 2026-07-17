@@ -2,11 +2,9 @@
   config,
   lib,
   ...
-}:
-let
-  colors = import ../../colors/${config.theme}.nix { };
-in
-{
+}: let
+  colors = import ../../colors/${config.theme}.nix {};
+in {
   plugins.fidget = {
     enable = true;
     settings = {
@@ -32,7 +30,7 @@ in
           ''
             function(msg) return msg.lsp_client.name end
           '';
-        ignore = [ ]; # List of LSP servers to ignore
+        ignore = []; # List of LSP servers to ignore
         lsp = {
           progress_ringbuf_size = 0; # Configure the nvim's LSP progress ring buffer size
         };
