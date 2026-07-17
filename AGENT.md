@@ -38,7 +38,7 @@ NeoVim configuration built with [nixvim](https://github.com/nix-community/nixvim
 │       ├── statusline/    # Lualine
 │       ├── treesitter/    # Treesitter + textobjects
 │       ├── ui/            # Telescope, bufferline, noice, notify, btw
-│       └── utils/         # Oil, flash, grapple, whichkey, illuminate, ufo, etc.
+└── utils/         # Mini, flash, grapple, whichkey, illuminate, ufo, etc.
 ```
 
 ## Build System
@@ -221,7 +221,7 @@ Configured in `config/plug/lsp/lsp.nix`:
 
 ### Utilities
 
-- `oil` — File explorer
+- `mini.files` — File explorer
 - `flash` — Quick motion
 - `grapple` — File tagging/bookmarks
 - `whichkey` — Key binding help
