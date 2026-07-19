@@ -230,7 +230,6 @@ Configured in `config/plug/lsp/lsp.nix`:
 - `undotree` — Undo history visualization
 - `nvim-autopairs` — Auto-close pairs
 - `comment` — Comment toggling
-- `ollama` — Local LLM integration
 - `venv-selector` — Python venv picker
 - `conform` — Formatter runner
 - `fidget` — LSP progress indicator
