@@ -53,6 +53,7 @@
     ./plug/utils/illuminate.nix
     ./plug/utils/nvim-autopairs.nix
     ./plug/utils/mini-files.nix
+    ./plug/utils/md-render.nix
     ./plug/utils/undotree.nix
     ./plug/utils/ufo.nix
     ./plug/utils/whichkey.nix

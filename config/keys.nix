@@ -68,6 +68,12 @@
       action = "+test";
     }
 
+    {
+      mode = "n";
+      key = "<leader>m";
+      action = "+markdown";
+    }
+
     # Tabs
     {
       mode = "n";
@@ -323,7 +329,7 @@
 
     {
       mode = "n";
-      key = "<leader>m";
+      key = "<leader>bt";
       action = "<CMD> Grapple toggle <CR>";
       options = {desc = "Grapple Toggle tag";};
     }
