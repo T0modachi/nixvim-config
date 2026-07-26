@@ -1,4 +1,16 @@
-{
+{pkgs, ...}: {
+  extraPlugins = with pkgs.vimPlugins; [
+    nvim-dap-go
+  ];
+
+  extraPackages = with pkgs; [
+    delve
+  ];
+
+  extraConfigLua = ''
+    require("dap-go").setup()
+  '';
+
   plugins = {
     web-devicons.enable = true;
     dap-python = {

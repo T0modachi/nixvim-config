@@ -7,7 +7,7 @@
         timeoutMs = 500;
       };
       notifyOnError = true;
-      formattersByFt = {
+      formatters_by_ft = {
         html = [["prettierd" "prettier"]];
         css = [["prettierd" "prettier"]];
         javascript = [["prettierd" "prettier"]];
@@ -17,6 +17,7 @@
         python = ["ruff"];
         lua = ["stylua"];
         nix = ["alejandra"];
+        go = ["gofmt"];
         markdown = [["prettierd" "prettier"]];
         yaml = ["yamllint" "yamlfmt"];
       };

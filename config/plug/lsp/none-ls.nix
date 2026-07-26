@@ -11,6 +11,7 @@
         statix.enable = true;
       };
       diagnostics = {
+        golangci_lint.enable = true;
         statix.enable = true;
         yamllint.enable = true;
       };
