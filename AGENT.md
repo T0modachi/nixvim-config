@@ -235,7 +235,7 @@ Configured in `config/plug/lsp/lsp.nix`:
 - `fidget` — LSP progress indicator
 - `lspsaga` — Enhanced LSP UI
 - `trouble` — Diagnostics list
-- `none-ls` — Null-ls replacement (formatters/linters)
+- `nvim-lint` — Async linter/diagnostics runner
 - `hlchunk` — Chunk highlighting
 - `luasnip` — Snippet engine
 

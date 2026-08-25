@@ -28,7 +28,7 @@
     ./plug/lsp/hlchunk.nix
     ./plug/lsp/lsp.nix
     ./plug/lsp/lspsaga.nix
-    ./plug/lsp/none-ls.nix
+    ./plug/lsp/lint.nix
     ./plug/lsp/trouble.nix
     ./plug/lsp/dap.nix
     ./plug/lsp/refactoring.nix
