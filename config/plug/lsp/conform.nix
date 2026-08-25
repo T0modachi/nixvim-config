@@ -4,7 +4,7 @@
     settings = {
       format_on_save = {
         lspFallback = true;
-        timeoutMs = 500;
+        timeoutMs = 2000;
       };
       notifyOnError = true;
       formatters_by_ft = {

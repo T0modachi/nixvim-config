@@ -1,7 +1,7 @@
 {
   plugins.none-ls = {
     enable = true;
-    enableLspFormat = true;
+    enableLspFormat = false;
     settings = {
       updateInInsert = false;
     };
@@ -15,33 +15,7 @@
         statix.enable = true;
         yamllint.enable = true;
       };
-      formatting = {
-        alejandra.enable = true;
-        # black = {
-        #   enable = true;
-        #   withArgs = ''
-        #     {
-        #       extra_args = { "--fast" },
-        #     }
-        #   '';
-        # };
-        prettierd = {
-          enable = true;
-          disableTsServerFormatter = true; # TODO: test deleting this option and using the formarter of the lsp enabled by default
-        };
-        prettier = {
-          enable = true;
-          disableTsServerFormatter = true;
-          settings = ''
-            {
-              extra_args = { "--no-semi", "--single-quote" },
-            }
-          '';
-        };
-        stylua.enable = true;
-        yamlfmt.enable = true;
-        #phpcsfixer.enable = true; TODO: find a php formatter with support
-      };
+    # Formatting handled by conform.nvim (see plug/lsp/conform.nix)
     };
   };
   keymaps = [
